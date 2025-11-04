@@ -1,8 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zack_martin1/Box/ELC SOC/class_report_1_martin/class_report_1_martin.srcs/sources_1/new/clockRate.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module clockRate
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zack_martin1/Box/ELC SOC/class_report_1_martin/class_report_1_martin.srcs/sources_1/new/digitSel.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module digitSel
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zack_martin1/Box/ELC SOC/class_report_1_martin/class_report_1_martin.srcs/sources_1/new/segSel.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module segSel
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/zack_martin1/Box/ELC SOC/class_report_1_martin/class_report_1_martin.srcs/sources_1/new/top.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module top
