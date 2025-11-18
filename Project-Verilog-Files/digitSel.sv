@@ -43,7 +43,7 @@ module digitSel( // Defines a digit selector module named "digitSel"
     assign An[7:4] = 4'b1111; // Disable the unused digits An[7:4] (active-low logic). Digits 1, 2, 3, and 4 are disabled (1).
     assign side = accu[2]; // The "side" signal determines which half of the square circuit rotates. The "side" signal gets its value from/is driven by accu[2], the Most Significant Bit (MSB) of this module's
                            // 3-bit accumulator/counter, which typically processes data from the on-board ADXL362 3-axis accelerometer. This bit (accu[2]) determines which half of the square circuit rotates:
-                           // 0 represents the first half (0-3), and 1 represents the second half (4-7). The halves do not correspond to physical locations on the board, but a logical divison of the data range
+    // 0 represents the first half (0-3), and 1 represents the second half (4-7). The halves do not correspond to physical locations on the board, but a logical division of the data range
                            // defined within your program's design. This rotation data is often used to control position feedback on the VGA display.
           
 endmodule // End of module definition
