@@ -1,0 +1,10 @@
+How The FPGA Board Switches/Triggers Work:
+* The Nexys-4-DDR-Master.xdc file instantiates all the switches on the Nexys4 DDR™ FPGA Board.
+* A program's top system Verilog module defines what the switches on the Nexys4 DDR™ FPGA Board do.
+* In the Rotating Square Circuit program:
+  SW[0] (switch 0) enables or disables circuit rotation. The Nexys4 DDR™ FPGA Board's default circuit rotation (SW[0]/switch 0) state is disabled/down.
+  Flipping switch 0 up from the Nexys4 DDR™ FPGA Board's default state enables circuit rotation and flipping switch 0 down from the enable/up state disables circuit rotation. 
+  SW[1] (switch 1) determines the direction of circuit rotation. The Nexys4 DDR™ FPGA Board's default circuit rotation (SW[1]/switch 1) direction is clockwise/down.
+  Flipping switch 1 up from the Nexys4 DDR™ FPGA Board's default state changes the circuit's direction of rotation from clockwise to counterclockwise and flipping switch 1 down from the
+  counterclockwise/up state changes the circuit's direction of rotation from counterclockwise to clockwise.
+
