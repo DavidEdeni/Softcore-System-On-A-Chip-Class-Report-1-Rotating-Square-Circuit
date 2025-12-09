@@ -7,5 +7,3 @@ How The FPGA Board Switches/Triggers Work:
   SW[1] (switch 1) determines the direction of circuit rotation. The Nexys4 DDR™ FPGA Board's default circuit rotation (SW[1]/switch 1) direction is clockwise/down.
   Flipping switch 1 up from the Nexys4 DDR™ FPGA Board's default state changes the circuit's direction of rotation from clockwise to counterclockwise and flipping switch 1 down from the
   counterclockwise/up state changes the circuit's direction of rotation from counterclockwise to clockwise.
-
-
